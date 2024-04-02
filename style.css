@@ -160,7 +160,9 @@ header{
     width: 52%;
     margin: 0 auto ;
     /* box-shadow: rgba(12, 137, 238,0.5) 0px 4px 16px, rgba(25, 141, 223, 0.35) 0px 8px 24px, rgba(60, 165, 241, 0.35) 0px 16px 56px; */
-    box-shadow: rgba(2, 123, 237, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(2, 123, 237, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgb(113, 233, 221) 0px 7px 29px 0px; */
+    box-shadow: rgba(113, 233, 221) 0px 2px 8px 0px;
     border-radius: 20px;
     
 }
@@ -1942,11 +1944,11 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.1
               0 0 100px var(--amarillo);
               border-color: var(--amarillo);           
 }
-.button-box  a span{
+.end-button-call a span{
   position: absolute;
   display: block;
 }
-.button-box a span:nth-child(1){
+.end-button-call a span:nth-child(1){
   top:0;
   left: -100%;
   width: 100%;
@@ -1964,7 +1966,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.1
       left: 100%;
   }
 }
-.button-box a span:nth-child(2){
+.end-button-call a span:nth-child(2){
   top: -100%;
   right: 0;
   width: 2px;
@@ -1981,7 +1983,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.1
       top: 100%;
   }
 }
-.button-box a span:nth-child(3){
+.end-button-call a span:nth-child(3){
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -1998,7 +2000,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.1
       right: 100%;
   }
 }
-.button-box a span:nth-child(4){
+.end-button-call a span:nth-child(4){
   bottom: -100%;
   left:0;
   width: 2px;
