@@ -2,9 +2,9 @@
     const date = new Date();
     simplyCountdown('#cuenta', {
         year: 2024, // required
-        month: 4, // required
-        day: 7, // required
-        hours: 8, // Default is 0 [0-23] integer
+        month: date.getMonth()+1, // required
+        day: 21, // required
+        hours: 12, // Default is 0 [0-23] integer
         minutes: 44, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer
         words: { //words displayed into the countdown
